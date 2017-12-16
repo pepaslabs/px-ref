@@ -1,6 +1,6 @@
 # PX Ref
 
-This is a LTZ1000-based 7V reference.
+This is an LTZ1000-based 7V reference.
 
 ![](kicad/releases/v2/top.png)
 
