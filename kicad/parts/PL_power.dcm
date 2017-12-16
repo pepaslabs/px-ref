@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed 13 Dec 2017 02:16:14 AM CST
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library
