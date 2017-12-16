@@ -15,3 +15,5 @@ My adapted version of Andreas' schematic: [pdf](kicad/releases/v2/basic-ltz1000.
 My post to the EEVBlog forum about this design: [link](http://www.eevblog.com/forum/metrology/ultra-precision-reference-ltz1000/msg1375209/#msg1375209)
 
 The naming of this board was inspired by other LTZ1000 references: [KX](https://xdevs.com/article/kx-ref/), [FX](https://xdevs.com/article/792x/), [MX](https://www.eevblog.com/forum/metrology/mx-reference/), [CX](https://www.eevblog.com/forum/metrology/cx-reference/)
+
+See also: https://github.com/pepaslabs/dr-frank-ltz1000
