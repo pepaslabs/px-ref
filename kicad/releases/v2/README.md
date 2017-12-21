@@ -10,6 +10,18 @@ Schematic: [pdf](basic-ltz1000.pdf)
 
 ![](../../../media/ltz1000-7v-schematic.png)
 
+### U1
+
+LTZ1000 or LTZ1000A.
+
+### U2
+
+LT1013 in DIP8.
+
+### Q1
+
+2N3904 in TO-92.
+
 ### R1, R2, R3, R4 / R5
 
 These are the "critical" resistors.
@@ -19,12 +31,27 @@ The ratio of R4 to R5 sets the temperature set-point of the heater circuit.
 
 These footprints are intended for Vishay or AE metal foil resistors.  R4 / R5 is for a Vishay "voltage divider" resistor set.
 
+### R6, R7, R8, R9
+
+Nothing fancy here, just 1% metal film 1/4 Watt resistors.  The reference board in HP's 3458A has them spec'ed as being 100ppm/C.
+
+- R6: 10k
+- R7: 1M
+- R8: 1k
+
+R9 is optional and is used to tune the temperature coefficient of the circuit.  The datasheet recommends using it with the LTZ1000 and omitting it with the LTZ1000A.  Try experimenting with this value in either case.
+
+- R9: 400k
+
 ### C1, C2, C3
 
 I chose to use film capacitors here to avoid the microphonic sensitivity of ceramic capacitors.
 
 - C1, C2: 0.1uF
-- C3: 22nF 
+
+The datasheet specifies 2nF for C3, but most circuits I've seen use 22nF.  A forum member claims using 2nF causes the control loop to be a bit "ringy".  In fact, the negative version of the circuit in the datasheet specifies 22nF, so I'm curious if 2nF for the 7V schematic was a typo.
+
+- C3: 22nF
 
 ### D1, D2
 
