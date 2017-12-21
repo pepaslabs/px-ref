@@ -4,8 +4,6 @@
 
 Schematic: [pdf](basic-ltz1000.pdf)
 
-# BOM (Bill of materials):
-
 ## Parts from the datasheet schematic:
 
 ![](../../../media/ltz1000-7v-schematic.png)
@@ -84,3 +82,9 @@ These holes are intended to accomodate M3 brass hex standoffs.
 Ideally, only one mounting hole should be secured with a nut.
 The other should "float", allowing the board to expand and contract freely with temperature
 (bending the baord can put stress on the components, causing tiny shifts in output voltage).
+
+## Bill of materials (BOM)
+
+![](BOM.png)
+
+Spreadsheet: [link](https://docs.google.com/spreadsheets/d/1iXBirF7wwRB60OcZYET5RVX0cuXblMtFNKk5hwqcZ_Y/edit?usp=sharing)
