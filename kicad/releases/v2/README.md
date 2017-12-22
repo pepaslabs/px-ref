@@ -85,6 +85,16 @@ Results of testing voltage drop at 20mA of a few diodes I had on hand:
 - 1N4006: 0.73V
 - 1N4148: 0.78V
 
+## D3
+
+This is a zener diode which was suggested by a forum member.  It's effect would be to limit the initial in-rush current to a cold LTZ1000 heater.
+
+Monitoring the emitter of the 2N3904 on startup with the board driven from a 15V supply (populated with an LTZ1000A) showed that the emitter voltage was at about 6.3V at ~1 second, slowly falling to about 5.26V after a few minutes.  This was with an uncovered LTZ1000A at 73F ambient.
+
+So, what's a good value for D3?  If we consider the minimum supply voltage for this board to be 11.6V (a nearly discharged 12V lead acid battery), and we allow 7V for the heater at start-up, and 0.7V drop across the 2N3904, that leaves us with (11.6 - 7 - 0.7) = 3.9V.
+
+Testing with an LTZ1000A showed that the entire board stabilized to about 22mA of current consumption after a few seconds, with the voltage past D4 being about 14.78V.  Powering up the board cold using a current-limited power supply set to 
+
 ### Mounting holes
 
 These holes are intended to accomodate M3 brass hex standoffs.
@@ -108,3 +118,6 @@ Spreadsheet: [link](https://docs.google.com/spreadsheets/d/1iXBirF7wwRB60OcZYET5
 - Use 0.3" x 0.1" "skinny" footprints for the film caps.  The larger footprints are only needed for larger values of capacitance (e.g. 1uF).
 - Make pin spacing of output pins compatible with 0.1" headers?
 - Use the updated footprints (slightly larger silkscreen boundary) for R1-R3
+- Add a current monitoring resistor footprint for the heater?
+- Drop the 1N4001 to a 1N4148 as called for in the datasheet (it handles 300mA so there's no need for a 1N4001) and switch to the shorter lead spacing diode footprints for the two 1N4148's.
+
