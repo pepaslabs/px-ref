@@ -2,7 +2,9 @@
 
 ![](top.png)
 
-Schematic: [pdf](basic-ltz1000.pdf)
+## Errata:
+
+I forgot to include the footprint for Andreas' C15, which is a 0.1uF capacitor across pins 5-6 of the LT1013.  This can be bodged in on the underside of the board.
 
 ## Parts from the datasheet schematic:
 
@@ -65,13 +67,23 @@ FIXME
 
 ![](basic-ltz1000.png)
 
+Schematic: [pdf](basic-ltz1000.pdf)
+
 ### D4
 
 This diode is for reverse polarity protection on the 15V supply.
+
 I chose to go with a 1 amp Shottky diode (1N5817, 1N1518, or 1N1519)
 because it has a lower voltage drop than a regular 1 amp diode (1N4001, etc),
 but nearly any diode will work here.
 A lower voltage drop would be desireable when running the board from a 12V lead acid battery.
+
+Results of testing voltage drop at 20mA of a few diodes I had on hand:
+- 1N5817: 0.23V
+- 1N5819: 0.29V
+- 1N4001: 0.71V
+- 1N4006: 0.73V
+- 1N4148: 0.78V
 
 ### Mounting holes
 
@@ -88,3 +100,11 @@ The other should "float", allowing the board to expand and contract freely with 
 ![](BOM.png)
 
 Spreadsheet: [link](https://docs.google.com/spreadsheets/d/1iXBirF7wwRB60OcZYET5RVX0cuXblMtFNKk5hwqcZ_Y/edit?usp=sharing)
+
+## TODO for next board revision
+
+- Use slightly larger holes for the diodes (the 1N5817 is a bit of a tight fit).
+- Swap the text labels of C13 to match the other caps
+- Use 0.3" x 0.1" "skinny" footprints for the film caps.  The larger footprints are only needed for larger values of capacitance (e.g. 1uF).
+- Make pin spacing of output pins compatible with 0.1" headers?
+- Use the updated footprints (slightly larger silkscreen boundary) for R1-R3
