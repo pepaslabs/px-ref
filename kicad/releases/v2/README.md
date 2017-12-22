@@ -57,7 +57,7 @@ The datasheet specifies 2nF for C3, but most circuits I've seen use 22nF.  A for
 
 The datasheet specifies 1N4148 here.  A forum member suggested using a 1N4001 for D1 to better handle the in-rush current of a cold unit, but the 1N4148 is spec'ed at 300mA continuous, so it should be fine.
 
-## Parts from the Andreas' schematic:
+## Parts from Andreas' schematic:
 
 ![](../../../media/LTZ1KA_1b.PNG)
 
