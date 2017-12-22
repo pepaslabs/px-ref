@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 11 Dec 2017 07:35:02 PM CST
+EESchema-DOCLIB  Version 2.0  Date: Sat 16 Dec 2017 03:47:32 AM CST
+#
+$CMP LINK
+D Jumper link
+K R DEV
+$ENDCMP
 #
 $CMP POT
 D Potentiometer
@@ -31,6 +36,11 @@ $ENDCMP
 #
 $CMP R_FOIL
 D Metal Foil Precision Resistor
+$ENDCMP
+#
+$CMP R_WW
+D Wirewound Resistor
+K R DEV
 $ENDCMP
 #
 #End Doc Library

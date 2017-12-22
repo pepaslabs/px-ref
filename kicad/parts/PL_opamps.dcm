@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 05 Sep 2017 07:34:01 PM CDT
+EESchema-DOCLIB  Version 2.0  Date: Sat 16 Dec 2017 12:40:59 AM CST
 #
 $CMP INA200
 D High-side current shunt monitor
@@ -14,6 +14,10 @@ $ENDCMP
 #
 $CMP LTC2057_10
 D LTC2057, 10-pin version
+$ENDCMP
+#
+$CMP MAX420
+D Chopper opamp
 $ENDCMP
 #
 $CMP NE5532
