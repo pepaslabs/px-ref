@@ -1,87 +1,87 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 15 Dec 2017 12:11:05 AM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 27 Dec 2017 03:47:19 PM CST
 
 BeginCmp
 TimeStamp = /59B58E77;
 Reference = C1;
 ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2E955E;
 Reference = C2;
 ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2E9577;
 Reference = C3;
 ValeurCmp = 22nF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /59B58EFF;
 Reference = C4;
 ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2E9A74;
 Reference = C8;
 ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2EA0E1;
 Reference = C9;
 ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2E983B;
 Reference = C11;
 ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2E956D;
 Reference = C12;
 ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2E9CE0;
 Reference = C13;
 ValeurCmp = 10nF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2E9DC5;
 Reference = C14;
 ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_02_03_02_059A;
+IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
 TimeStamp = /59AF91A5;
 Reference = D1;
-ValeurCmp = 1N4001;
-IdModule  = DIODE_1A_069A_PL;
+ValeurCmp = 1N4148;
+IdModule  = DIODE_SS_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /59AF91B7;
 Reference = D2;
 ValeurCmp = 1N4148;
-IdModule  = DIODE_1A_069A_PL;
+IdModule  = DIODE_SS_059A_PL;
 EndCmp
 
 BeginCmp
@@ -124,20 +124,6 @@ TimeStamp = /59B592C7;
 Reference = P4;
 ValeurCmp = CONN_1X1;
 IdModule  = 1pin_040_069;
-EndCmp
-
-BeginCmp
-TimeStamp = /5A30DF67;
-Reference = P5;
-ValeurCmp = CONN_1X1;
-IdModule  = 1pin_040_069_strip_2_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5A3170D1;
-Reference = P6;
-ValeurCmp = CONN_1X1;
-IdModule  = 1PIN_SMD_HIDDEN_PL;
 EndCmp
 
 BeginCmp
