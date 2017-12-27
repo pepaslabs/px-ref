@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 27 Dec 2017 03:47:19 PM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Wed 27 Dec 2017 03:56:49 PM CST
 
 BeginCmp
 TimeStamp = /59B58E77;
@@ -71,6 +71,13 @@ IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
+TimeStamp = /5A441649;
+Reference = C15;
+ValeurCmp = 0.1uF;
+IdModule  = BOXCAP_01_03_02_059A;
+EndCmp
+
+BeginCmp
 TimeStamp = /59AF91A5;
 Reference = D1;
 ValeurCmp = 1N4148;
@@ -94,7 +101,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5A2E3CB9;
 Reference = D4;
-ValeurCmp = 1N5817;
+ValeurCmp = 1N5819;
 IdModule  = DIODE_1A_069A_PL;
 EndCmp
 
@@ -122,6 +129,13 @@ EndCmp
 BeginCmp
 TimeStamp = /59B592C7;
 Reference = P4;
+ValeurCmp = CONN_1X1;
+IdModule  = 1pin_040_069;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A4418D5;
+Reference = P5;
 ValeurCmp = CONN_1X1;
 IdModule  = 1pin_040_069;
 EndCmp
