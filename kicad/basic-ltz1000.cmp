@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 29 Dec 2017 12:20:50 AM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 29 Dec 2017 02:14:39 AM CST
 
 BeginCmp
 TimeStamp = /59B58E77;
@@ -78,6 +78,34 @@ IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
+TimeStamp = /5A45F5F4;
+Reference = C30;
+ValeurCmp = 0.1uF;
+IdModule  = BOXCAP_01_03_02_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A45F5FA;
+Reference = C31;
+ValeurCmp = 10nF;
+IdModule  = BOXCAP_01_03_02_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A45F643;
+Reference = C32;
+ValeurCmp = 0.1uF;
+IdModule  = BOXCAP_01_03_02_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A45F807;
+Reference = C33;
+ValeurCmp = 0.1uF;
+IdModule  = BOXCAP_01_03_02_059A;
+EndCmp
+
+BeginCmp
 TimeStamp = /59AF91A5;
 Reference = D1;
 ValeurCmp = 1N4148;
@@ -122,6 +150,13 @@ EndCmp
 BeginCmp
 TimeStamp = /59B592BB;
 Reference = P2;
+ValeurCmp = CONN_1X1;
+IdModule  = 1pin_040_069;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A45F64B;
+Reference = P3;
 ValeurCmp = CONN_1X1;
 IdModule  = 1pin_040_069;
 EndCmp
@@ -211,6 +246,27 @@ IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
+TimeStamp = /5A45F5E8;
+Reference = R30;
+ValeurCmp = 10k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A45F5EE;
+Reference = R31;
+ValeurCmp = 10k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A45F600;
+Reference = R32;
+ValeurCmp = 22R;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
 TimeStamp = /5A2F337D;
 Reference = R45;
 ValeurCmp = 1k / 13k;
@@ -229,6 +285,13 @@ TimeStamp = /59AF9182;
 Reference = U2;
 ValeurCmp = LT1013;
 IdModule  = DIP8_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A45F5DB;
+Reference = U30;
+ValeurCmp = LTC2057;
+IdModule  = SO-8;
 EndCmp
 
 EndListe
