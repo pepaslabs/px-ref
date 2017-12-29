@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 28 Dec 2017 03:40:35 PM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 29 Dec 2017 12:20:50 AM CST
 
 BeginCmp
 TimeStamp = /59B58E77;
@@ -81,28 +81,35 @@ BeginCmp
 TimeStamp = /59AF91A5;
 Reference = D1;
 ValeurCmp = 1N4148;
-IdModule  = DIODE_SS_059A_PL;
+IdModule  = DIODE_SS_059A_03_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /59AF91B7;
 Reference = D2;
 ValeurCmp = 1N4148;
-IdModule  = DIODE_SS_059A_PL;
+IdModule  = DIODE_SS_059A_03_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2F1CDD;
 Reference = D3;
 ValeurCmp = ZENER;
-IdModule  = DIODE_SS_059A_PL;
+IdModule  = DIODE_SS_059A_03_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2E3CB9;
 Reference = D4;
 ValeurCmp = 1N5819;
-IdModule  = DIODE_1A_069A_PL;
+IdModule  = DIODE_1A_069A_04_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A45E067;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
 EndCmp
 
 BeginCmp
@@ -116,14 +123,7 @@ BeginCmp
 TimeStamp = /59B592BB;
 Reference = P2;
 ValeurCmp = CONN_1X1;
-IdModule  = 1pin_040_069_strip_2_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /59B592C1;
-Reference = P3;
-ValeurCmp = CONN_1X1;
-IdModule  = 1pin_040_069_strip_2_PL;
+IdModule  = 1pin_040_069;
 EndCmp
 
 BeginCmp
@@ -141,6 +141,13 @@ IdModule  = 1pin_040_069;
 EndCmp
 
 BeginCmp
+TimeStamp = /5A45DC8C;
+Reference = P6;
+ValeurCmp = CONN_2X1;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
 TimeStamp = /59AF91C4;
 Reference = Q1;
 ValeurCmp = 2N3904;
@@ -151,21 +158,21 @@ BeginCmp
 TimeStamp = /5A2EA87D;
 Reference = R1;
 ValeurCmp = 120;
-IdModule  = R_BOX_PL;
+IdModule  = R_BOX_HERMETIC_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2EA5A5;
 Reference = R2;
 ValeurCmp = 70k;
-IdModule  = R_BOX_PL;
+IdModule  = R_BOX_HERMETIC_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2EA5C4;
 Reference = R3;
 ValeurCmp = 70k;
-IdModule  = R_BOX_PL;
+IdModule  = R_BOX_HERMETIC_PL;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 16 Dec 2017 03:47:32 AM CST
+EESchema-DOCLIB  Version 2.0  Date: Sat 16 Dec 2017 07:53:02 PM CST
 #
 $CMP LINK
 D Jumper link
@@ -8,6 +8,11 @@ $ENDCMP
 $CMP POT
 D Potentiometer
 K R
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
 $ENDCMP
 #
 $CMP R_0W25
@@ -22,6 +27,16 @@ $ENDCMP
 #
 $CMP R_0W5
 D Resistor 1/2W 5% Carbon Film
+K R DEV
+$ENDCMP
+#
+$CMP R_100ppm
+D Resistor 100ppm/C
+K R DEV
+$ENDCMP
+#
+$CMP R_10ppm
+D Resistor 10ppm/C
 K R DEV
 $ENDCMP
 #

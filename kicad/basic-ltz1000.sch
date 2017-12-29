@@ -32,6 +32,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -56,7 +57,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "27 dec 2017"
+Date "29 dec 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -386,17 +387,6 @@ F 3 "~" H 16100 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_1X1 P3
-U 1 1 59B592C1
-P 16050 5850
-F 0 "P3" V 16050 5850 40  0000 C CNN
-F 1 "CONN_1X1" V 16150 5850 40  0000 C CNN
-F 2 "~" H 16100 5800 60  0000 C CNN
-F 3 "~" H 16100 5800 60  0000 C CNN
-	1    16050 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_1X1 P4
 U 1 1 59B592C7
 P 16050 3550
@@ -409,8 +399,6 @@ F 3 "~" H 16100 3500 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	15400 5400 15850 5400
-Wire Wire Line
-	15400 5850 15850 5850
 Wire Wire Line
 	15750 3550 15750 3650
 $Comp
@@ -539,9 +527,6 @@ F 3 "" H 15650 5650 60  0000 C CNN
 	1    15650 5650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15650 5800 15650 5850
-Connection ~ 15650 5850
 Wire Wire Line
 	15650 5500 15650 5400
 Connection ~ 15650 5400
@@ -722,4 +707,55 @@ Wire Wire Line
 	6350 9850 6200 10000
 Wire Wire Line
 	6200 10000 5800 10000
+Text GLabel 15600 6600 0    60   Input ~ 0
+CHASSIS
+$Comp
+L CONN_2X1 P6
+U 1 1 5A45DC8C
+P 16050 6650
+F 0 "P6" V 16050 6650 40  0000 C CNN
+F 1 "CONN_2X1" V 16150 6650 40  0000 C CNN
+F 2 "~" H 16100 6650 60  0000 C CNN
+F 3 "~" H 16100 6650 60  0000 C CNN
+	1    16050 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A45DC99
+P 15750 6800
+F 0 "#PWR05" H 15750 6600 50  0001 C CNN
+F 1 "GND" H 15750 6700 40  0000 C CNN
+F 2 "" H 15750 6800 50  0000 C CNN
+F 3 "" H 15750 6800 50  0000 C CNN
+	1    15750 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15850 6700 15750 6700
+Wire Wire Line
+	15750 6700 15750 6800
+Wire Wire Line
+	15850 6600 15600 6600
+Text GLabel 15600 7200 0    60   Input ~ 0
+CHASSIS
+Wire Wire Line
+	15850 7200 15600 7200
+$Comp
+L HOLE H1
+U 1 1 5A45E067
+P 15850 7200
+F 0 "H1" H 15850 7255 30  0000 C CNN
+F 1 "HOLE" H 15850 7140 30  0000 C CNN
+F 2 "~" H 15850 7200 60  0000 C CNN
+F 3 "~" H 15850 7200 60  0000 C CNN
+	1    15850 7200
+	1    0    0    -1  
+$EndComp
+Text Notes 14450 5600 0    60   ~ 0
+C9 to be mounted\nbetween binding posts
+Wire Wire Line
+	15400 5850 15650 5850
+Wire Wire Line
+	15650 5850 15650 5800
 $EndSCHEMATC
