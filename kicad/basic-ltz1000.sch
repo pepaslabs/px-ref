@@ -1016,7 +1016,7 @@ Wire Wire Line
 	12950 6100 13200 6000
 Connection ~ 12950 6100
 Text Notes 11350 6750 0    60   ~ 0
-ADA4522-1 may also be substituted for reduced high-frequency current noise (thanks Flinstone!).
+ADA4522-1 may also be substituted.
 Text Notes 15950 10400 0    60   ~ 0
 v2.2
 $EndSCHEMATC
