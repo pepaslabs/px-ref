@@ -16,4 +16,6 @@ My post to the EEVBlog forum about this design: [link](http://www.eevblog.com/fo
 
 The naming of this board was inspired by other LTZ1000 references: [KX](https://xdevs.com/article/kx-ref/), [FX](https://xdevs.com/article/792x/), [MX](https://www.eevblog.com/forum/metrology/mx-reference/), [CX](https://www.eevblog.com/forum/metrology/cx-reference/)
 
-See also: https://github.com/pepaslabs/dr-frank-ltz1000
+See also:
+- https://github.com/pepaslabs/dr-frank-ltz1000
+- https://github.com/pepaslabs/hp-03458-66509-clone
