@@ -57,7 +57,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "29 dec 2017"
+Date "23 jan 2018"
 Rev ""
 Comp ""
 Comment1 ""
@@ -198,9 +198,7 @@ Wire Wire Line
 Wire Wire Line
 	3050 4300 3050 4500
 Wire Wire Line
-	6600 2900 6600 3300
-Wire Wire Line
-	6600 3300 6600 5150
+	6600 2900 6600 5150
 Wire Wire Line
 	6600 2150 6600 2500
 Wire Wire Line
@@ -208,17 +206,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 1750 6800 5150
 Wire Wire Line
-	7050 2900 7050 3650
+	7050 2900 7050 5150
 Wire Wire Line
-	7050 3650 7050 5150
-Wire Wire Line
-	6800 6350 6800 6550
-Wire Wire Line
-	6800 6550 6800 7250
-Wire Wire Line
-	6800 7250 6800 7550
-Wire Wire Line
-	6800 7550 6800 8500
+	6800 6350 6800 8500
 Wire Wire Line
 	4400 4700 4400 9150
 Wire Wire Line
@@ -230,18 +220,10 @@ Wire Wire Line
 Wire Wire Line
 	5650 8900 5650 9150
 Wire Wire Line
-	7050 6350 7050 6450
-Wire Wire Line
-	7050 6450 7050 7050
-Wire Wire Line
-	7050 7050 7050 9150
+	7050 6350 7050 9150
 Connection ~ 6800 7250
 Wire Wire Line
-	7050 3650 7900 3650
-Wire Wire Line
-	7900 3650 8400 3650
-Wire Wire Line
-	8400 3650 8750 3650
+	7050 3650 8750 3650
 Connection ~ 7050 3650
 Wire Wire Line
 	7900 8850 7900 9150
@@ -249,11 +231,7 @@ Wire Wire Line
 	7900 3650 7900 8550
 Connection ~ 7900 3650
 Wire Wire Line
-	8600 3850 8600 4200
-Wire Wire Line
-	8600 4200 8600 4350
-Wire Wire Line
-	8600 4350 8600 5450
+	8600 3850 8600 5450
 Wire Wire Line
 	9650 2150 9650 3250
 Wire Wire Line
@@ -276,9 +254,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 9850 6400 9850
 Wire Wire Line
-	2200 2500 2200 2600
-Wire Wire Line
-	2200 2600 2200 3100
+	2200 2500 2200 3100
 Wire Wire Line
 	8600 3850 8750 3850
 Wire Wire Line
@@ -288,30 +264,16 @@ H+
 Text GLabel 900  7750 3    60   Input ~ 0
 H+
 Wire Wire Line
-	900  3600 900  4300
-Wire Wire Line
-	900  4300 900  7550
-Wire Wire Line
-	900  7550 900  7750
+	900  3600 900  7750
 Wire Wire Line
 	4400 2150 4400 3900
 Wire Wire Line
-	2500 3300 2900 3300
-Wire Wire Line
-	2900 3300 5000 3300
-Wire Wire Line
-	5000 3300 6600 3300
+	2500 3300 6600 3300
 Connection ~ 6600 3300
 Wire Wire Line
-	1750 4300 2650 4300
+	1750 4300 3550 4300
 Wire Wire Line
-	2650 4300 3050 4300
-Wire Wire Line
-	3050 4300 3550 4300
-Wire Wire Line
-	2650 3500 2650 3850
-Wire Wire Line
-	2650 3850 2650 4300
+	2650 3500 2650 4300
 Wire Wire Line
 	2650 3500 2500 3500
 Connection ~ 3050 4300
@@ -333,9 +295,7 @@ Wire Wire Line
 	4100 7550 6800 7550
 Connection ~ 6800 7550
 Wire Wire Line
-	900  7550 3050 7550
-Wire Wire Line
-	3050 7550 3700 7550
+	900  7550 3700 7550
 Wire Wire Line
 	7050 2150 6800 1750
 Wire Wire Line
@@ -438,9 +398,7 @@ F 3 "~" H 11650 9000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13500 9100 13750 9100
-Wire Wire Line
-	13750 9100 13950 9100
+	13500 9100 13950 9100
 Wire Wire Line
 	11300 9050 11300 9150
 $Comp
@@ -631,17 +589,6 @@ F 3 "~" H 6075 5925 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5650 4700 5650 5150
-$Comp
-L R_DIVIDER R45
-U 1 1 5A2F337D
-P 4400 4300
-F 0 "R45" V 4500 4400 40  0000 C CNN
-F 1 "1k / 13k" V 4300 4500 40  0000 C CNN
-F 2 "~" V 4330 4500 30  0000 C CNN
-F 3 "~" H 4400 4500 30  0000 C CNN
-	1    4400 4300
-	1    0    0    -1  
-$EndComp
 Text Notes 6800 4900 1    60   ~ 0
 4mA
 Text Notes 6800 6800 1    60   ~ 0
@@ -659,21 +606,13 @@ Text Notes 5650 5100 1    60   ~ 0
 Text Notes 5650 6750 1    60   ~ 0
 20mA?
 Wire Wire Line
-	3950 4300 4400 4300
-Wire Wire Line
-	4400 4300 6350 4300
-Wire Wire Line
-	6350 4300 6350 5050
-Wire Wire Line
-	6350 5050 6350 5150
-Connection ~ 4400 4300
+	6350 4300 6350 5150
 Wire Wire Line
 	10700 8650 10850 8650
 Wire Wire Line
 	6350 5050 7400 5050
 Wire Wire Line
 	7400 5050 7400 5650
-Connection ~ 6350 5050
 Wire Wire Line
 	7050 6450 7400 6450
 Wire Wire Line
@@ -702,9 +641,7 @@ Wire Wire Line
 	7400 6550 6800 6550
 Connection ~ 6800 6550
 Wire Wire Line
-	9650 3650 9650 3750
-Wire Wire Line
-	9650 3750 9650 4350
+	9650 3650 9650 4350
 Wire Wire Line
 	9650 4350 9300 4350
 Wire Wire Line
@@ -918,9 +855,7 @@ $EndComp
 Wire Wire Line
 	13200 4300 13300 4300
 Wire Wire Line
-	13200 3800 13200 3950
-Wire Wire Line
-	13200 3950 13200 4300
+	13200 3800 13200 4300
 Wire Wire Line
 	13300 3950 13200 3950
 Connection ~ 13200 3950
@@ -931,23 +866,13 @@ Wire Wire Line
 Wire Wire Line
 	13200 4900 13300 4900
 Wire Wire Line
-	13200 4900 13200 5000
+	13200 4900 13200 6000
 Wire Wire Line
-	13200 5000 13200 6000
+	14400 4600 15100 4600
 Wire Wire Line
-	14400 4600 14550 4600
+	13650 4600 14000 4600
 Wire Wire Line
-	14550 4600 14950 4600
-Wire Wire Line
-	14950 4600 15100 4600
-Wire Wire Line
-	13650 4600 13850 4600
-Wire Wire Line
-	13850 4600 14000 4600
-Wire Wire Line
-	12500 4500 12650 4500
-Wire Wire Line
-	12650 4500 12950 4500
+	12500 4500 12950 4500
 Wire Wire Line
 	12650 4650 12650 4500
 Connection ~ 12650 4500
@@ -967,9 +892,7 @@ $EndComp
 Wire Wire Line
 	12650 4950 12650 6000
 Wire Wire Line
-	12950 4700 12950 5400
-Wire Wire Line
-	12950 5400 12950 5700
+	12950 4700 12950 5700
 $Comp
 L GND #PWR07
 U 1 1 5A46057F
@@ -1019,4 +942,30 @@ Text Notes 11350 6750 0    60   ~ 0
 ADA4522-1 may also be substituted.
 Text Notes 15950 10400 0    60   ~ 0
 v2.2
+$Comp
+L R_FOIL R4
+U 1 1 5A671CA4
+P 4400 4100
+F 0 "R4" V 4480 4100 40  0000 C CNN
+F 1 "13k" V 4400 4100 40  0000 C CNN
+F 2 "~" V 4330 4100 30  0000 C CNN
+F 3 "~" H 4400 4100 30  0000 C CNN
+	1    4400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_FOIL R5
+U 1 1 5A671CAA
+P 4400 4500
+F 0 "R5" V 4480 4500 40  0000 C CNN
+F 1 "1k" V 4400 4500 40  0000 C CNN
+F 2 "~" V 4330 4500 30  0000 C CNN
+F 3 "~" H 4400 4500 30  0000 C CNN
+	1    4400 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 5050
+Wire Wire Line
+	3950 4300 6350 4300
+Connection ~ 4400 4300
 $EndSCHEMATC

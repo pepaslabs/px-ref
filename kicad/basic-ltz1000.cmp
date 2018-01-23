@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 29 Dec 2017 02:14:39 AM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 23 Jan 2018 05:35:35 AM CST
 
 BeginCmp
 TimeStamp = /59B58E77;
@@ -211,6 +211,20 @@ IdModule  = R_BOX_HERMETIC_PL;
 EndCmp
 
 BeginCmp
+TimeStamp = /5A671CA4;
+Reference = R4;
+ValeurCmp = 13k;
+IdModule  = R_BOX_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A671CAA;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = R_BOX_PL;
+EndCmp
+
+BeginCmp
 TimeStamp = /59AF9213;
 Reference = R6;
 ValeurCmp = 10k;
@@ -264,13 +278,6 @@ TimeStamp = /5A45F600;
 Reference = R32;
 ValeurCmp = 22R;
 IdModule  = R_AXIAL_0W25_059A_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5A2F337D;
-Reference = R45;
-ValeurCmp = 1k / 13k;
-IdModule  = R_BOX_DIVIDER_PL;
 EndCmp
 
 BeginCmp
