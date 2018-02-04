@@ -18,7 +18,7 @@ My adapted version of Andreas' schematic: [pdf](kicad/releases/v2.3/basic-ltz100
 
 ## Purchasing
 
-You can order a copy of this board from OSHPark: [link](https://oshpark.com/shared_projects/5n56VbPg)
+You can order a copy of this board from OSHPark: [link](https://oshpark.com/shared_projects/6puqHG9j)
 
 ## Discussion
 
