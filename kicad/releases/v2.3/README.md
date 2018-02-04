@@ -35,6 +35,20 @@ These footprints are intended for Vishay or AE metal foil resistors, in either t
 
 R45 is for a Vishay "voltage divider" resistor set.  R4 and R5 are discrete footprints for the same divider.  Populate either R45 or R4 and R5.
 
+#### Relative impact of R1 - R5
+
+Several members of the EEVBlog forums have emperically measured the impact of drift in these resistors.  I have summarized their results here: [link](https://www.eevblog.com/forum/metrology/resistor-set-for-ltz1000-positive-standard-7v-circuit/msg1386014/#msg1386014)
+
+![](../../../media/resistors-table-3.png)
+
+Some obvervations, just to check your understanding:
+
+The drift of R3 is only 6% as important as the drift of the R4/R5 ratio.  That is, if R4/R5 drifted by 1ppm, R3 would have to drift by over 16ppm to have the same impact on the reference ouput.
+
+The temperature coefficient of one of the 70k resistors (R2) is six times more important than the other 70k resistor (R3).
+
+The R4/R5 ratio is about 3x more important than R2, about 7x more important than R1, and about 16x more important than R3.
+
 ### R6, R7, R8, R9
 
 Nothing fancy here, just 1% metal film 1/4 Watt resistors.  The reference board in HP's 3458A has them spec'ed as being 100ppm/C.
