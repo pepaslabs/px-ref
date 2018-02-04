@@ -1,14 +1,6 @@
-# PX Ref v2.2
+# PX Ref v2.3
 
 ![](top.png)
-
-## Errata
-
-A mistake was made with the LTC2057 shutdown pin which will cause self-heating of 2057 by a few degrees.
-
-The shutdown pin's maximum input rating is 5.3V, but it was connected to the 15V supply, which will result in 1mA flowing through its internal 10k resistor and 5.25V protection zener, burning an additional 15mW of heat inside of the 2057.  This could raise the internal temperature of the 2057 by a few degrees and possible lead to a few uV of thermal EMF error on one of the pins.
-
-The solution is to detach pins 1 and 8 of the 2057 (the shutdown pin will function normally if those pins are left floating).
 
 ## Bill of materials (BOM)
 
@@ -32,14 +24,16 @@ LT1013 in DIP8.
 
 2N3904 in TO-92.
 
-### R1, R2, R3, R4 / R5
+### R1, R2, R3, R4 / R5, R45
 
 These are the "critical" resistors.
 
 R1 sets the current through the zener.
 The ratio of R4 to R5 sets the temperature set-point of the heater circuit.
 
-These footprints are intended for Vishay or AE metal foil resistors.  R4 / R5 is for a Vishay "voltage divider" resistor set.
+These footprints are intended for Vishay or AE metal foil resistors, in either the hermetic "metal can" package, or the "box" epoxy package.
+
+R45 is for a Vishay "voltage divider" resistor set.  R4 and R5 are discrete footprints for the same divider.  Populate either R45 or R4 and R5.
 
 ### R6, R7, R8, R9
 
@@ -110,13 +104,22 @@ Results of testing voltage drop at 20mA of a few diodes I had on hand:
 
 ## D3
 
-This is a zener diode which was suggested by a forum member.  It's effect would be to limit the initial in-rush current to a cold LTZ1000 heater.
+This is a zener diode which was suggested by a forum member,
+which limits the initial in-rush current of a cold LTZ1000 heater.
 
-Monitoring the emitter of the 2N3904 on startup with the board driven from a 15V supply (populated with an LTZ1000A) showed that the emitter voltage was at about 6.3V at ~1 second, slowly falling to about 5.26V after a few minutes.  This was with an uncovered LTZ1000A at 73F ambient.
+Monitoring the emitter of the 2N3904 on startup with the board driven from a 15V supply (populated with an LTZ1000A) showed that the emitter voltage was at about 6.3V at ~1 second, slowly falling to about 5.26V after a few minutes.
+This was with an uncovered LTZ1000A at 73F ambient.
 
-So, what's a good value for D3?  If we consider the minimum supply voltage for this board to be 11.6V (a nearly discharged 12V lead acid battery), and we allow 7V for the heater at start-up, and 0.7V drop across the 2N3904, that leaves us with (11.6 - 7 - 0.7) = 3.9V.
+So, what's a good value for D3?
+If we consider the minimum supply voltage for this board to be 11.6V
+(a nearly discharged 12V lead acid battery),
+and we allow 7V for the heater at start-up,
+0.7V drop across the 2N3904,
+and 0.3V drop across the 1N5819,
+that leaves us with (11.6 - 7 - 0.7 - 0.3) = 3.6V.
 
-Testing with an LTZ1000A showed that the entire board stabilized to about 22mA of current consumption after a few seconds, with the voltage past D4 being about 14.78V.
+So, a 3.3V zener would be a conservative choice here.
+
 
 ### Mounting holes
 
@@ -149,6 +152,12 @@ More film caps.
 - C30, C32, C33: 0.1uF
 
 C32 is the (buffered) output capacitor.  Solder it to the binding posts.
+
+
+## Changes from previous board revision
+
+- The LTC2057 shutdown pin is now left floating.
+- Rather than having two board variations, R45 and R4, R5 are now all on the same board.
 
 
 ## TODO for next board revision

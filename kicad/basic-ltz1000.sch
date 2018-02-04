@@ -51,13 +51,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:basic-ltz1000-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "23 jan 2018"
+Date "4 feb 2018"
 Rev ""
 Comp ""
 Comment1 ""
@@ -145,12 +146,12 @@ $EndComp
 $Comp
 L R_0W25 R6
 U 1 1 59AF9213
-P 3750 4300
-F 0 "R6" V 3830 4300 40  0000 C CNN
-F 1 "10k" V 3750 4300 40  0000 C CNN
-F 2 "" V 3680 4300 30  0000 C CNN
-F 3 "" H 3750 4300 30  0000 C CNN
-	1    3750 4300
+P 3450 4300
+F 0 "R6" V 3530 4300 40  0000 C CNN
+F 1 "10k" V 3450 4300 40  0000 C CNN
+F 2 "" V 3380 4300 30  0000 C CNN
+F 3 "" H 3450 4300 30  0000 C CNN
+	1    3450 4300
 	0    1    1    0   
 $EndComp
 Text GLabel 900  2550 1    60   Input ~ 0
@@ -271,7 +272,7 @@ Wire Wire Line
 	2500 3300 6600 3300
 Connection ~ 6600 3300
 Wire Wire Line
-	1750 4300 3550 4300
+	1750 4300 3250 4300
 Wire Wire Line
 	2650 3500 2650 4300
 Wire Wire Line
@@ -853,8 +854,6 @@ F 3 "" H 13450 3950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	13200 4300 13300 4300
-Wire Wire Line
 	13200 3800 13200 4300
 Wire Wire Line
 	13300 3950 13200 3950
@@ -863,8 +862,6 @@ Wire Wire Line
 	13700 3950 13700 5000
 Wire Wire Line
 	13700 3950 13600 3950
-Wire Wire Line
-	13200 4900 13300 4900
 Wire Wire Line
 	13200 4900 13200 6000
 Wire Wire Line
@@ -941,7 +938,7 @@ Connection ~ 12950 6100
 Text Notes 11350 6750 0    60   ~ 0
 ADA4522-1 may also be substituted.
 Text Notes 15950 10400 0    60   ~ 0
-v2.2
+v2.3
 $Comp
 L R_FOIL R4
 U 1 1 5A671CA4
@@ -966,6 +963,30 @@ F 3 "~" H 4400 4500 30  0000 C CNN
 $EndComp
 Connection ~ 6350 5050
 Wire Wire Line
-	3950 4300 6350 4300
+	3650 4300 6350 4300
 Connection ~ 4400 4300
+NoConn ~ 13300 4900
+NoConn ~ 13300 4300
+Wire Wire Line
+	4150 3750 4150 3900
+Wire Wire Line
+	4150 3750 4400 3750
+Connection ~ 4400 3750
+Wire Wire Line
+	4150 4700 4150 4850
+Wire Wire Line
+	4150 4850 4400 4850
+Connection ~ 4400 4850
+$Comp
+L R_DIVIDER R45
+U 1 1 5A777CBC
+P 4150 4300
+F 0 "R45" V 4250 4300 40  0000 C CNN
+F 1 "13k/1k" V 4050 4300 40  0000 C CNN
+F 2 "~" V 4080 4500 30  0000 C CNN
+F 3 "~" H 4150 4500 30  0000 C CNN
+	1    4150 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 4300
 $EndSCHEMATC
