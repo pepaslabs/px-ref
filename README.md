@@ -8,7 +8,7 @@ Specifically, this is my board layout of a circuit [published](http://www.eevblo
 
 ## Latest revision
 
-- [v2.2](kicad/releases/v2.3)
+- [v2.3](kicad/releases/v2.3)
 
 ## Schematic
 
