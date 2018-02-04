@@ -2,6 +2,12 @@
 
 ![](top.png)
 
+## Bill of materials (BOM)
+
+![](BOM.png)
+
+Spreadsheet: [link](https://docs.google.com/spreadsheets/d/1iMRS2HY1jZ_TCvgPMmdHyxduSDgiw9QMjbdRjiF5_4c/edit?usp=sharing)
+
 ## Parts from the datasheet schematic:
 
 ![](../../../media/ltz1000-7v-schematic.png)
@@ -136,11 +142,6 @@ More film caps.
 
 C32 is the (buffered) output capacitor.  Solder it to the binding posts.
 
-## Bill of materials (BOM)
-
-![](BOM.png)
-
-Spreadsheet: [link](https://docs.google.com/spreadsheets/d/1iMRS2HY1jZ_TCvgPMmdHyxduSDgiw9QMjbdRjiF5_4c/edit?usp=sharing)
 
 ## TODO for next board revision
 
