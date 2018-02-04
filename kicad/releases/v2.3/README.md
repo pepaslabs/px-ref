@@ -6,7 +6,7 @@
 
 ![](BOM.png)
 
-Spreadsheet: [link](https://docs.google.com/spreadsheets/d/1iMRS2HY1jZ_TCvgPMmdHyxduSDgiw9QMjbdRjiF5_4c/edit?usp=sharing)
+Spreadsheet: [link](https://docs.google.com/spreadsheets/d/1FJQxu697zyCkPXdosOjH2hhmSWCJBrhMGLY0yudvgno/edit?usp=sharing)
 
 ## Parts from the datasheet schematic:
 
