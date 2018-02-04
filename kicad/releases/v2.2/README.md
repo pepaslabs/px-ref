@@ -145,4 +145,4 @@ C32 is the (buffered) output capacitor.  Solder it to the binding posts.
 
 ## TODO for next board revision
 
-- Make the short slightly smaller in one dimension to fit with a TECO case?
+- Make the board slightly smaller in one dimension to fit within a [TEKO](http://www.tekoenclosures.com/en/products/family/RF/series/37-39) case?
