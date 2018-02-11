@@ -177,3 +177,10 @@ C32 is the (buffered) output capacitor.  Solder it to the binding posts.
 ## TODO for next board revision
 
 - Make the board slightly smaller in one dimension to fit within a [TEKO](http://www.tekoenclosures.com/en/products/family/RF/series/37-39) case?
+
+## Choosing Vsupply
+
+Andreas of the EEVBlog forums has shown that the PSRR of this cicruit is essentially linear at least down to 9V.
+
+https://www.eevblog.com/forum/metrology/ultra-precision-reference-ltz1000/msg842662/#msg842662
+
