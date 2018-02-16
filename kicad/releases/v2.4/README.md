@@ -124,8 +124,13 @@ Results of testing voltage drop at 20mA of a few diodes I had on hand:
 
 ## D3
 
+This part is optional -- you can just solder in a jumper wire instead.
+
 This is a zener diode which was suggested by a forum member,
 which limits the initial in-rush current of a cold LTZ1000 heater.
+Perhaps this could be useful in reducing power-cycle induced hysteresis?
+
+Please note that this is just speculation -- I don't yet have any data which demonstrates this part to be beneficial.
 
 Monitoring the emitter of the 2N3904 on startup with the board driven from a 15V supply (populated with an LTZ1000A) showed that the emitter voltage was at about 6.3V at ~1 second, slowly falling to about 5.26V after a few minutes.
 This was with an uncovered LTZ1000A at 73F ambient.
@@ -140,6 +145,7 @@ that leaves us with (11.6 - 7 - 0.7 - 0.3) = 3.6V.
 
 So, a 3.3V zener would be a conservative choice here.
 
+Alternatively, a shunt resistor could be soldered in D3's place if you needed to monitor the heater current.
 
 ### Mounting holes
 
