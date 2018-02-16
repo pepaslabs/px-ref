@@ -3,7 +3,7 @@
   (general
     (links 76)
     (no_connects 0)
-    (area 196.1388 64.388999 248.031001 116.459)
+    (area 196.186778 65.786 249.202222 115.189)
     (thickness 1.6)
     (drawings 21)
     (tracks 257)
@@ -1583,7 +1583,7 @@
     )
   )
 
-  (gr_text "+ SD -" (at 246.126 88.9 90) (layer F.SilkS)
+  (gr_text "- SD +" (at 246.126 88.9 90) (layer F.SilkS)
     (effects (font (size 0.635 0.635) (thickness 0.127)))
   )
   (gr_line (start 244.475 113.665) (end 202.565 113.665) (angle 90) (layer Edge.Cuts) (width 0.1))
