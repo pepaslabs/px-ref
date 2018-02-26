@@ -1,6 +1,8 @@
 # PX Ref v2.4
 
-![](top-large.png)
+![](top.png)
+
+![](bottom.png)
 
 ## Bill of materials (BOM)
 
