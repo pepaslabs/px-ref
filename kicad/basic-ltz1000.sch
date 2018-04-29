@@ -51,13 +51,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:basic-ltz1000-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 feb 2018"
+Date "29 apr 2018"
 Rev ""
 Comp ""
 Comment1 ""
@@ -176,17 +177,15 @@ Text GLabel 12350 8550 0    60   Input ~ 0
 15V
 Text GLabel 15150 9000 0    60   Input ~ 0
 Vz+ Sense
-Text GLabel 15150 9450 0    60   Input ~ 0
-Vz- Sense
 $Comp
 L GND #PWR02
 U 1 1 59B03B5B
-P 12950 9050
-F 0 "#PWR02" H 12950 8850 50  0001 C CNN
-F 1 "GND" H 12950 8950 40  0000 C CNN
-F 2 "" H 12950 9050 50  0000 C CNN
-F 3 "" H 12950 9050 50  0000 C CNN
-	1    12950 9050
+P 12950 9300
+F 0 "#PWR02" H 12950 9100 50  0001 C CNN
+F 1 "GND" H 12950 9200 40  0000 C CNN
+F 2 "" H 12950 9300 50  0000 C CNN
+F 3 "" H 12950 9300 50  0000 C CNN
+	1    12950 9300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -367,12 +366,12 @@ Wire Wire Line
 $Comp
 L CONN_1X1 P1
 U 1 1 59B592AE
-P 13250 8550
-F 0 "P1" V 13250 8550 40  0000 C CNN
-F 1 "CONN_1X1" V 13350 8550 40  0000 C CNN
-F 2 "~" H 13300 8500 60  0000 C CNN
-F 3 "~" H 13300 8500 60  0000 C CNN
-	1    13250 8550
+P 13700 8550
+F 0 "P1" V 13700 8550 40  0000 C CNN
+F 1 "CONN_1X1" V 13800 8550 40  0000 C CNN
+F 2 "~" H 13750 8500 60  0000 C CNN
+F 3 "~" H 13750 8500 60  0000 C CNN
+	1    13700 8550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -389,18 +388,18 @@ $EndComp
 $Comp
 L CONN_1X1 P4
 U 1 1 59B592C7
-P 13250 8950
-F 0 "P4" V 13250 8950 40  0000 C CNN
-F 1 "CONN_1X1" V 13350 8950 40  0000 C CNN
-F 2 "~" H 13300 8900 60  0000 C CNN
-F 3 "~" H 13300 8900 60  0000 C CNN
-	1    13250 8950
+P 13700 9200
+F 0 "P4" V 13700 9200 40  0000 C CNN
+F 1 "CONN_1X1" V 13800 9200 40  0000 C CNN
+F 2 "~" H 13750 9150 60  0000 C CNN
+F 3 "~" H 13750 9150 60  0000 C CNN
+	1    13700 9200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15150 9000 15600 9000
 Wire Wire Line
-	12950 8950 12950 9050
+	12950 9200 12950 9300
 $Comp
 L SCHOTTKY D4
 U 1 1 5A2E3CB9
@@ -413,7 +412,7 @@ F 3 "~" H 12700 8550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13050 8550 12900 8550
+	13500 8550 12900 8550
 $Comp
 L C_FILM C2
 U 1 1 5A2E955E
@@ -519,17 +518,14 @@ Connection ~ 2900 3300
 $Comp
 L C_FILM C9
 U 1 1 5A2EA0E1
-P 15400 9250
-F 0 "C9" H 15420 9310 30  0000 L BNN
-F 1 "0.1uF" H 15420 9190 30  0000 L TNN
-F 2 "" H 15438 9100 30  0000 C CNN
-F 3 "" H 15400 9250 60  0000 C CNN
-	1    15400 9250
+P 13300 8850
+F 0 "C9" H 13320 8910 30  0000 L BNN
+F 1 "0.1uF" H 13320 8790 30  0000 L TNN
+F 2 "" H 13338 8700 30  0000 C CNN
+F 3 "" H 13300 8850 60  0000 C CNN
+	1    13300 8850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15400 9100 15400 9000
-Connection ~ 15400 9000
 $Comp
 L R_FOIL R2
 U 1 1 5A2EA5A5
@@ -648,7 +644,7 @@ Wire Wire Line
 	9000 4350 8600 4350
 Connection ~ 8600 4350
 Wire Wire Line
-	13050 8950 12950 8950
+	13500 9200 12950 9200
 $Comp
 L C_FILM C15
 U 1 1 5A441649
@@ -688,12 +684,6 @@ Wire Wire Line
 	5150 9750 5000 9900
 Wire Wire Line
 	5000 9900 5000 9900
-Text Notes 14200 9200 0    60   ~ 0
-C9 to be mounted\nbetween binding posts
-Wire Wire Line
-	15150 9450 15400 9450
-Wire Wire Line
-	15400 9450 15400 9400
 Wire Wire Line
 	8600 7250 8600 5850
 $Comp
@@ -788,8 +778,6 @@ F 3 "~" H 15850 8500 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	15150 8550 15600 8550
-Text Notes 15200 4900 0    60   ~ 0
-C32 to be mounted\nbetween binding posts
 Text GLabel 15100 4600 2    60   Input ~ 0
 Vz+ Buf
 Text GLabel 11900 4500 0    60   Input ~ 0
@@ -892,7 +880,7 @@ Connection ~ 12950 6100
 Text Notes 11350 6750 0    60   ~ 0
 ADA4522-1 may also be substituted.
 Text Notes 15950 10400 0    60   ~ 0
-v2.4
+v2.4.1
 $Comp
 L R_FOIL R4
 U 1 1 5A671CA4
@@ -943,4 +931,10 @@ F 3 "~" H 4150 4500 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4150 4300
+Wire Wire Line
+	13300 8700 13300 8550
+Connection ~ 13300 8550
+Wire Wire Line
+	13300 9000 13300 9200
+Connection ~ 13300 9200
 $EndSCHEMATC
