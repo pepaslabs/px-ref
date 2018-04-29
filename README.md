@@ -2,7 +2,7 @@
 
 This is an LTZ1000-based 7V reference.
 
-![](kicad/releases/v2.4/top.png)
+![](kicad/releases/v2.4.1/top.png)
 
 Specifically, this is my board layout of a circuit [published](http://www.eevblog.com/forum/metrology/ultra-precision-reference-ltz1000/msg249123/#msg249123) by Andreas (of the EEVBlog forum), which in turn is a modification of the 7V reference circuit from the [datasheet](http://cds.linear.com/docs/en/datasheet/1000afe.pdf).
 
@@ -49,12 +49,12 @@ Specifically, this is my board layout of a circuit [published](http://www.eevblo
 
 Andreas' original schematic: [png](media/LTZ1KA_1b.PNG)
 
-My adapted version of Andreas' schematic: [pdf](kicad/releases/v2.4/basic-ltz1000.pdf)
+My adapted version of Andreas' schematic: [pdf](kicad/releases/v2.4.1/basic-ltz1000.pdf)
 
 
 ## Purchasing
 
-You can order a copy of this board from OSHPark: [link](https://oshpark.com/shared_projects/uh2iEJZp)
+You can order a copy of this board from OSHPark: [link](https://oshpark.com/shared_projects/hUZKe65r)
 
 
 ## Discussion

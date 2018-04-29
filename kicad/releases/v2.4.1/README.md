@@ -209,11 +209,8 @@ C32 is the (buffered) output capacitor.
 
 ## Changes from previous board revision
 
-- Board dimensions should now be small enough to squeeze into a TEKO 371.16 case (a steel case which can fit inside of a Hammond 1590B).  Such an arrangement should shield from both EMI as well as magnetic fields.
-- The "shutdown" pins of the LTC2057 have been exposed via break-out pins (for implementing off-board control).
-- The center terminal of the R4 / R5 divider has been exposed via a breakout pin (for off-board manipulation of the temperature set-point).
-- The chassis-ground jumper has been removed (You can solder a wire from ground to the pad of the adjacent mounting hole if you want ground to be connected to chassis via brass stand-offs).
-- Minor routing tweaks.
+- Used larger pads for the TO-99 footprint (they were too difficult to solder).
+- Moved the input and output capacitors directly onto the board (instead of mounted across the banana jacks).
 
 
 ## Choosing Vsupply
