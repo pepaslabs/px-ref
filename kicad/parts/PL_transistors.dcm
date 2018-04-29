@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 16 Dec 2017 02:38:46 AM CST
+EESchema-DOCLIB  Version 2.0  Date: Sun 11 Feb 2018 01:23:26 AM CST
 #
 $CMP 2N3904
 D 2N3904 NPN Transistor, 40V, 200mA
@@ -18,6 +18,10 @@ $ENDCMP
 $CMP BC560
 D BC560 PNP Transistor, 45V, 100mA, low noise
 F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP NCH_GDS
+F transistors/mos/*.*
 $ENDCMP
 #
 $CMP NPN_BCE_TO-220

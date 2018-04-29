@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sat 16 Dec 2017 07:53:02 PM CST
+EESchema-DOCLIB  Version 2.0  Date: Sun 28 Jan 2018 01:47:26 AM CST
 #
 $CMP LINK
 D Jumper link
@@ -30,12 +30,12 @@ D Resistor 1/2W 5% Carbon Film
 K R DEV
 $ENDCMP
 #
-$CMP R_100ppm
+$CMP R_100PPM
 D Resistor 100ppm/C
 K R DEV
 $ENDCMP
 #
-$CMP R_10ppm
+$CMP R_10PPM
 D Resistor 10ppm/C
 K R DEV
 $ENDCMP
@@ -55,6 +55,11 @@ $ENDCMP
 #
 $CMP R_WW
 D Wirewound Resistor
+K R DEV
+$ENDCMP
+#
+$CMP THERMISTOR
+D Resistance
 K R DEV
 $ENDCMP
 #
