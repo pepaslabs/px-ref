@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 24 Jun 2018 11:25:59 PM CDT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 28 Apr 2018 01:58:16 AM CDT
 
 BeginCmp
 TimeStamp = /59B58E77;
@@ -106,27 +106,6 @@ IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
 
 BeginCmp
-TimeStamp = /5B306EAF;
-Reference = C34;
-ValeurCmp = 1uF;
-IdModule  = BOXCAP_02_03_03_059A;
-EndCmp
-
-BeginCmp
-TimeStamp = /5B2F2840;
-Reference = C40;
-ValeurCmp = 1uF;
-IdModule  = BOXCAP_02_03_03_059A;
-EndCmp
-
-BeginCmp
-TimeStamp = /5B2F2D96;
-Reference = C41;
-ValeurCmp = 10uF;
-IdModule  = ELCAP_10_20_V_059A;
-EndCmp
-
-BeginCmp
 TimeStamp = /59AF91A5;
 Reference = D1;
 ValeurCmp = 1N4148;
@@ -155,17 +134,10 @@ IdModule  = DIODE_1A_069A_04_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5B2F2872;
-Reference = L40;
-ValeurCmp = 10uH;
-IdModule  = R_AXIAL_0W25_059A_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5B2F2828;
+TimeStamp = /59B592AE;
 Reference = P1;
-ValeurCmp = CONN_2X1;
-IdModule  = ferrite_core_20x12_PL;
+ValeurCmp = CONN_1X1;
+IdModule  = 1pin_040_069;
 EndCmp
 
 BeginCmp
@@ -183,17 +155,17 @@ IdModule  = 1pin_040_069;
 EndCmp
 
 BeginCmp
-TimeStamp = /5A4418D5;
-Reference = P5;
+TimeStamp = /59B592C7;
+Reference = P4;
 ValeurCmp = CONN_1X1;
 IdModule  = 1pin_040_069;
 EndCmp
 
 BeginCmp
-TimeStamp = /5B2F3128;
-Reference = P6;
-ValeurCmp = CONN_2X1;
-IdModule  = ferrite_core_20x12_PL;
+TimeStamp = /5A4418D5;
+Reference = P5;
+ValeurCmp = CONN_1X1;
+IdModule  = 1pin_040_069;
 EndCmp
 
 BeginCmp
@@ -291,13 +263,6 @@ BeginCmp
 TimeStamp = /5A45F600;
 Reference = R32;
 ValeurCmp = 22R;
-IdModule  = R_AXIAL_0W25_059A_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /5B2F283A;
-Reference = R40;
-ValeurCmp = 4.7R;
 IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
