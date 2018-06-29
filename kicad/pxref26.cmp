@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 28 Jun 2018 08:24:56 PM CDT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 28 Jun 2018 11:55:22 PM CDT
 
 BeginCmp
 TimeStamp = /59B58E77;
@@ -31,13 +31,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5A2E9A74;
 Reference = C8;
-ValeurCmp = 0.1uF;
-IdModule  = BOXCAP_01_03_02_059A;
-EndCmp
-
-BeginCmp
-TimeStamp = /5A2EA0E1;
-Reference = C9;
 ValeurCmp = 0.1uF;
 IdModule  = BOXCAP_01_03_02_059A;
 EndCmp
@@ -117,13 +110,6 @@ TimeStamp = /5B2F2840;
 Reference = C40;
 ValeurCmp = 1uF;
 IdModule  = BOXCAP_02_03_03_059A;
-EndCmp
-
-BeginCmp
-TimeStamp = /5B2F2D96;
-Reference = C41;
-ValeurCmp = 10uF;
-IdModule  = ELCAP_10_20_V_059A;
 EndCmp
 
 BeginCmp
@@ -256,7 +242,7 @@ BeginCmp
 TimeStamp = /5A2EA87D;
 Reference = R1;
 ValeurCmp = 120;
-IdModule  = R_BOX_HERMETIC_AXIAL_05_PL;
+IdModule  = R_BOX_HERMETIC_WW_AXIAL_07_PL;
 EndCmp
 
 BeginCmp
