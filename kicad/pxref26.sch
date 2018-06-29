@@ -51,14 +51,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:pxref26-cache
 EELAYER 27 0
 EELAYER END
 $Descr D 34000 22000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "27 jun 2018"
+Date "29 jun 2018"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1187,10 +1186,6 @@ Wire Wire Line
 	7900 3700 8000 3700
 Wire Wire Line
 	14350 4400 14800 4400
-Text GLabel 13200 4900 0    40   Input ~ 0
-R4H
-Wire Wire Line
-	13200 4900 13650 4900
 Text GLabel 5200 4950 0    40   Input ~ 0
 R4H
 Text GLabel 5200 5100 0    40   Input ~ 0
