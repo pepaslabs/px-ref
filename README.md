@@ -9,11 +9,17 @@ Specifically, this is my board layout of a circuit [published](http://www.eevblo
 
 ## Latest revision
 
-- [v2.4.1](kicad/releases/v2.4.1)
+- [v2.4.3](kicad/releases/v2.4.3)
 
 
 ## Revision history:
 
+- [v2.4.3](kicad/releases/v2.4.3)
+  - Shortened the board very slightly, as the fit in a [TEKO 371.16](http://www.tekoenclosures.com/en/products/family/RF/series/37-39) was just a bit tight.
+  - Added two 0.1" holes near LTZ1000 to allow securing a 3D-printed cap.
+  - Added more via's in the thermal equalization ring around the LTZ1000.
+- [v2.4.2](kicad/releases/v2.4.2)
+  - ???
 - [v2.4.1](kicad/releases/v2.4.1)
   - Used larger pads on the TO-99 footprint (easier to solder).
   - Moved the input and (buffered) output caps directly onto the board. 
